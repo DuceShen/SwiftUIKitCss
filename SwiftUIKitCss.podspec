@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '将UIKit控件的属性设置统一化、简便化'
+  s.description      = '将UIKit控件的属性设置统一化、简便化。作者学习如何上传中，暂不能使用orz。'
 #TODO: Add long description of the pod here.
 #                       DESC
 
