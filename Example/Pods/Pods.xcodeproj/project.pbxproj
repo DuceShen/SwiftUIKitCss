@@ -11,7 +11,6 @@
 		493C1169DC80D41C1D0C88B95B73BFEF /* SwiftUIKitCss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AA65C1D4A78699814771129731EA3A /* SwiftUIKitCss-dummy.m */; };
 		5706204ADFD8CFA01971CE6C5A07133A /* Pods-SwiftUIKitCss_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FF67BC50D7C8430A1DEE12AF9AC589 /* Pods-SwiftUIKitCss_Tests-dummy.m */; };
 		86070EC483FA74584A6B57A3B5A176B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BD9A0289948F1597E8731A0FD8CB592B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382C9A9F9B0A8E5A440B08C67D0B450 /* ReplaceMe.swift */; };
 		C23F14A9826D23B4CC312AFD687675B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F4A3314DB754A3C5D468918A45707974 /* SwiftUIKitCss-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6392ED89AC9DADF6B9445FB67E776BE2 /* SwiftUIKitCss-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -28,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		035B9D3C224296AEEBC679C05452244A /* Pods-SwiftUIKitCss_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIKitCss_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		09BA06E25AFD07E2DDCA0D9A7042EEE9 /* SwiftUIKitCss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftUIKitCss.framework; path = SwiftUIKitCss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BA06E25AFD07E2DDCA0D9A7042EEE9 /* SwiftUIKitCss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIKitCss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		187E7BBBADF96E2ABBBC2ED662DE855E /* Pods-SwiftUIKitCss_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUIKitCss_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		24135E7C4A8EFA002C8E9B55E57D4025 /* SwiftUIKitCss-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIKitCss-prefix.pch"; sourceTree = "<group>"; };
 		28FF67BC50D7C8430A1DEE12AF9AC589 /* Pods-SwiftUIKitCss_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUIKitCss_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -38,16 +37,15 @@
 		41DCE23832224BDB80EFE4D059692987 /* Pods-SwiftUIKitCss_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUIKitCss_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6392ED89AC9DADF6B9445FB67E776BE2 /* SwiftUIKitCss-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftUIKitCss-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68D22D93F8A066437A58D4C4AAE8633F /* SwiftUIKitCss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftUIKitCss.modulemap; sourceTree = "<group>"; };
+		68D22D93F8A066437A58D4C4AAE8633F /* SwiftUIKitCss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftUIKitCss.modulemap; sourceTree = "<group>"; };
 		7719304436FE4727B4FA5C7E60B95140 /* Pods-SwiftUIKitCss_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUIKitCss_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C382C9A9F9B0A8E5A440B08C67D0B450 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftUIKitCss/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D0EA8AC9D2B6A5FCE83BA695E742E986 /* Pods-SwiftUIKitCss_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUIKitCss_Tests-resources.sh"; sourceTree = "<group>"; };
 		E1AA65C1D4A78699814771129731EA3A /* SwiftUIKitCss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftUIKitCss-dummy.m"; sourceTree = "<group>"; };
-		E7D3E3758D2E609E1BEE591B3BE037FF /* Pods_SwiftUIKitCss_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftUIKitCss_Tests.framework; path = "Pods-SwiftUIKitCss_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D3E3758D2E609E1BEE591B3BE037FF /* Pods_SwiftUIKitCss_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIKitCss_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D2AEB5F7C6CF187DCAA446D6DE7D8F /* Pods-SwiftUIKitCss_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUIKitCss_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FAF5C518E4E2ABB314F50B54F0490506 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCEF0FF3DA142A1CF3E8FC99515F0EC3 /* Pods-SwiftUIKitCss_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftUIKitCss_Tests.modulemap"; sourceTree = "<group>"; };
+		FCEF0FF3DA142A1CF3E8FC99515F0EC3 /* Pods-SwiftUIKitCss_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftUIKitCss_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +155,6 @@
 		F2DFD1C4D5A4E5E273EA9D9022FBBDB4 /* SwiftUIKitCss */ = {
 			isa = PBXGroup;
 			children = (
-				C382C9A9F9B0A8E5A440B08C67D0B450 /* ReplaceMe.swift */,
 				F1FE73543431435950E93B7D01DB5D14 /* Support Files */,
 			);
 			name = SwiftUIKitCss;
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD9A0289948F1597E8731A0FD8CB592B /* ReplaceMe.swift in Sources */,
 				493C1169DC80D41C1D0C88B95B73BFEF /* SwiftUIKitCss-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
