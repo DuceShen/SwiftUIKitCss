@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftUIKitCss_Tests' do
+  pod 'SwiftUIKitCss', :path => '../'
+  
+  
+end
