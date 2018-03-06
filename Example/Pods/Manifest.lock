@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUIKitCss (0.1.0)
+
+DEPENDENCIES:
+  - SwiftUIKitCss (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftUIKitCss:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftUIKitCss: 3a89777cb298b0f25acfd7694674ebd4f168ffda
+
+PODFILE CHECKSUM: deb3bbdbe710965fbc3f60e0e389bd958a02ff0f
+
+COCOAPODS: 1.4.0.beta.1
